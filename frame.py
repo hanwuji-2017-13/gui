@@ -32,7 +32,7 @@ class mainFrame ( wx.Frame ):
 		
 		bSizer3 = wx.BoxSizer( wx.VERTICAL )
 		
-		self.m_textCtrl7 = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_textCtrl7 = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, wx.TE_MULTILINE )
 		self.m_textCtrl7.SetMinSize( wx.Size( 600,400 ) )
 		
 		bSizer3.Add( self.m_textCtrl7, 0, wx.ALL|wx.EXPAND, 5 )
@@ -49,6 +49,7 @@ class mainFrame ( wx.Frame ):
 		self.SetSizer( bSizer3 )
 		self.Layout()
 		bSizer3.Fit( self )
+		self.m_statusBar1 = self.CreateStatusBar( 1, wx.STB_SIZEGRIP, wx.ID_ANY )
 		
 		self.Centre( wx.BOTH )
 		

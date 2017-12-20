@@ -1,7 +1,15 @@
-from app import startGUI
-#this function is to generate textsum
-def textsum(a):
-#I don't know how to do so just append asd
-    return a+'asd'
+from app import App
+import time
 
-startGUI(textsum)
+class Textsum(App):
+    def __init__(self):
+        super().__init__()
+    
+    def OnInitProgrmne(self):
+        time.sleep(3)
+        
+    def OnTextSum(self,text):
+        time.sleep(3)
+        return text+'asd';
+
+Textsum().MainLoop()
