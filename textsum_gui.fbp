@@ -44,7 +44,7 @@
             <property name="minimum_size"></property>
             <property name="name">Frame</property>
             <property name="pos"></property>
-            <property name="size">500,700</property>
+            <property name="size">625,700</property>
             <property name="style">wxDEFAULT_FRAME_STYLE</property>
             <property name="subclass">; forward_declare</property>
             <property name="title">文本摘要</property>
@@ -302,7 +302,7 @@
                                 <property name="style">wxTE_MULTILINE</property>
                                 <property name="subclass">; forward_declare</property>
                                 <property name="toolbar_pane">0</property>
-                                <property name="tooltip"></property>
+                                <property name="tooltip">待摘要文本</property>
                                 <property name="validator_data_type"></property>
                                 <property name="validator_style">wxFILTER_NONE</property>
                                 <property name="validator_type">wxDefaultValidator</property>
