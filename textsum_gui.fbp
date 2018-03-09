@@ -44,7 +44,7 @@
             <property name="minimum_size"></property>
             <property name="name">Frame</property>
             <property name="pos"></property>
-            <property name="size">638,705</property>
+            <property name="size">625,700</property>
             <property name="style">wxDEFAULT_FRAME_STYLE</property>
             <property name="subclass">; forward_declare</property>
             <property name="title">文本摘要</property>
